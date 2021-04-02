@@ -19,10 +19,10 @@ const Savez = () => {
         <>
             <SavezContainer>
             {data.map((item)=>{
-            const {id,name,discribe,img, colors, paddings, fb, insta, www}=item;
+            const {id,name,discribe,img, colors, paddings, fb, insta, www, heights, top}=item;
             return(<Box key={id}>
             <ImgBox>
-            <Img src={img} alt={name}/>
+            <Img src={img} alt={name} style={{height:heights, marginTop:top}}/>
             </ImgBox>
             <Content>
                 <H3 style={{color:`${colors}`, paddingTop:`${paddings}`}}>{name}</H3>

@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react'
+/* import React, { useState, useContext } from 'react'
 import {data} from './data/ProjectsData';
 import {dataa} from './data/NewsData';
 
@@ -18,4 +18,4 @@ export const useGlobalContext = () => {
   return useContext(AppContext)
 }
 
-export { AppContext, AppProvider }
+export { AppContext, AppProvider } */

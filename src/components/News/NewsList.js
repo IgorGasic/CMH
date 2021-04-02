@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container} from '../../GlobalStyle';
-import {useGlobalContext} from '../../context';
+import {data} from '../../data/NewsData';
 import News from './News';
 import {
     H2, 
@@ -8,14 +8,14 @@ import {
     NewsContainer} from './NewsStyled';
 
 const NewsList = () => {
-    const {news} = useGlobalContext();
+
     return (
         <>
             <Container>
                 <H2>Vesti</H2>
                 <UnderLine />
                 <NewsContainer>
-                    {news.map((item)=>{
+                    {data.map((item)=>{
                         return <News key={item.id} {...item} />
                     })}
                 </NewsContainer>

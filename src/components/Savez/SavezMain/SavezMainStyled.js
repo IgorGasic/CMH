@@ -19,8 +19,9 @@ export const ImgBox = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 70%;
     transition: 0.5s;
+
 `
 export const Img = styled.img`
     position:absolute;
@@ -28,9 +29,9 @@ export const Img = styled.img`
     left:0;
     bottom:40px;
     width: 100%;
-    height: 90%;
+    height: 100%;
     object-fit:cover;
-    padding-right:50px;
+    margin-top:75px;
 
     @media screen and (max-width:468px){
         padding-top:30px;

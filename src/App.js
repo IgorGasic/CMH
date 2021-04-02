@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import GlobalStyle from './GlobalStyle';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
@@ -10,10 +10,14 @@ import Footer from './components/Footer/Footer';
 import ScrollToTop from './ScrollToTop';
 import Error from './pages/ErrorPage';
 import Projects from './pages/ProjectsPage';
-import SingleProject from './components/SingleProject/SingleProject';
+import SingleProject from './components/Projects/SingleProject';
 import News from './pages/NewsPage';
+import SingleNews from './components/News/SingleNews';
+
+
 
 function App() {
+
   return (
     <Router>
       <GlobalStyle />
@@ -24,9 +28,10 @@ function App() {
         <Route path="/onama" component={AboutUs} />
         <Route path="/savez" component={Savez} />
         <Route path="/kontakt" component={Contact} />
-        <Route path="/projekti" component={Projects} />
-        <Route path="/porjekat/:id" component={SingleProject} />
+        <Route path="/projekti" exact component={Projects}/>
+        <Route path="/porjekat/:title" component={SingleProject}/>  
         <Route path="/vesti" component={News} />
+        <Route path="/vest/:title" component={SingleNews} />
         <Route path="*" component={Error} />
       </Switch>
       <Footer />

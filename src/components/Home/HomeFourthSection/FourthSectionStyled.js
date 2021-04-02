@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Underline} from '../../../GlobalStyle';
 
 export const Section = styled.section`
     width:90vw;
@@ -73,4 +74,9 @@ export const Person = styled.article`
     transition:all 0.3s linear;
     padding-top:20px;
 
+`
+export const UnderLine = styled(Underline)`
+    margin-top:-15px;
+    width:11rem;
+    align-items:center;
 `

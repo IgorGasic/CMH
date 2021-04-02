@@ -21,7 +21,7 @@ const News = ({id, title, text, thumb}) => {
                     <H3>{title}</H3>
                     <P>{text.substr(0,400)}...</P>
                     <Links>
-                    <NewsLink to={`/projekat/${id}`}>Detaljnije</NewsLink>
+                    <NewsLink to={`/vest/${title}`}>Detaljnije</NewsLink>
                     </Links>
                 </NewsContent>
             </NewsContaineR> 

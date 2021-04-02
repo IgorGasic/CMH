@@ -1,6 +1,6 @@
 import React from 'react'
 import {Container} from '../../GlobalStyle';
-import {useGlobalContext} from '../../context';
+import {data} from '../../data/ProjectsData'
 import Project from './Project';
 import {
     H2, 
@@ -10,14 +10,14 @@ import {
 
 
 const ProjectsList = () => {
-    const {project} = useGlobalContext();
+
     return (
         <>
           <Container>
               <H2>Projekti</H2>
               <UnderLine />
               <ProjectsContainer>
-                {project.map((item)=>{
+                {data.map((item)=>{
                     return <Project key={item.id} {...item} />
                 })}
               </ProjectsContainer>

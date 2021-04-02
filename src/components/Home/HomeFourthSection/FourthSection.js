@@ -8,7 +8,8 @@ import{
     Img,
     ArticleH4,
     Text,
-    Person} from './FourthSectionStyled'; 
+    Person,
+    UnderLine} from './FourthSectionStyled'; 
 
 const FourthSection = () => {
   const [people] = useState(data);
@@ -35,6 +36,7 @@ const FourthSection = () => {
       <Section>
           <Title>
             <H2>Naš tim</H2>
+            <UnderLine />
           </Title>
           <TeamContnainer>
             {data.map((item,itemIndex)=>{

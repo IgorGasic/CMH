@@ -16,9 +16,9 @@ import {
 const Project = ({id, title, date, text, thumb}) => {
     return (
         <>
-            <ProjectContainer>
+            <ProjectContainer key={id}>
                 <ProjectImg>
-                    <Img src={thumb} alt={title}/>
+                    <Img src={thumb} />
                 </ProjectImg>
                 <ProjectContent>
                     <H3>{title}</H3>
@@ -27,7 +27,7 @@ const Project = ({id, title, date, text, thumb}) => {
                     </Content>
                     <P>{text.substr(0,200)}...</P>
                     <Links>
-                    <LinkIcon/><ProjectLink to={`/porjekat/${id}`}>Opsirnije</ProjectLink>
+                    <LinkIcon/><ProjectLink to={`/porjekat/${title}`}>Opsirnije</ProjectLink>
                     </Links>
                 </ProjectContent>
             </ProjectContainer> 
