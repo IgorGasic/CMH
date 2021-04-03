@@ -21,11 +21,16 @@ export const AboutUsColumn = styled.div`
 `
 export const Title = styled.h3`
     font-size:3rem;
+
+    @media screen and (max-width:468px){
+        font-size:2.4rem;
+        margin-bottom:2px;
+    }
 `
 export const Text = styled.p`
     max-width:${(props) => (props.large ? '1200px' : '540px')};
     padding-bottom:30px;
-    font-size:2rem;
+    font-size:1.2rem;
     margin-top:50px;
 `
 export const AboutUsImg = styled.div`
@@ -50,4 +55,8 @@ export const UnderLine = styled(Underline)`
     width:15rem;
     margin-left:25px;
     margin-top:-15px;
+
+    @media screen and (max-width:468px){
+        margin-left:0;
+    }
 `

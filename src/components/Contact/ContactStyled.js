@@ -163,10 +163,12 @@ export const Phone = styled(FiPhoneCall)`
     font-size:1.4rem;
     color:#5c0099;
     margin-top:5px;
+ 
 
     @media screen and (max-width: 468px){
         margin-top:2px;
-        font-size:0.8rem;
+        font-size:1rem;
+        margin-bottom:5px;
     }
 `
 export const Email = styled(FaRegEnvelope)`
@@ -176,6 +178,9 @@ export const Email = styled(FaRegEnvelope)`
 
     @media screen and (max-width: 468px){
         margin-top:-1px;
+        font-size:1.2rem;
+        
+        
     }
 `
 export const Facebook = styled(FaFacebookSquare)`
@@ -195,6 +200,7 @@ export const Linkedin = styled(AiFillLinkedin)`
 `
 export const Content = styled.div`
     display:flex;
+    flex-direction:${(props)=>(props.mail ? "column" : '')};
 `
 export const Error = styled.p`
     color:red

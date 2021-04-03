@@ -107,6 +107,18 @@ export const NavMenu = styled.ul`
         transition: all 0.5s ease;
         background: #000;
     }
+    @media screen and (max-width:468px){
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        height:50vh;
+        position: absolute;
+        top: 80px;
+        left:${({click})=>(click ? 0 : '-100%')};
+        opacity: 100%;
+        transition: all 0.5s ease;
+        background: #000;
+    }
 
 `
 export const NavItem = styled.li`

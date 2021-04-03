@@ -11,6 +11,10 @@ export const Title = styled.h2`
     text-align:center;
     margin-top: 1.5rem;
     margin-bottom:1.5rem;
+
+    @media screen and (max-width:468px){
+        font-size:2rem;
+    }
 `
 export const ProjectInfo = styled.div`
 

@@ -35,8 +35,7 @@ export const Img = styled.img`
 
     @media screen and (max-width:468px){
         padding-top:30px;
-        padding-right:30px;
-        height:70%;
+
     }
 `
 export const H3 = styled.h3`
@@ -64,9 +63,9 @@ export const Par = styled.p`
     text-align:center;
     color:#fff;
     font-size:1.1rem;
-
+    
     @media screen and (max-width:468px){
-        font-size:1rem;
+        font-size:0.9rem;
     }
 `
 export const FaceIcon = styled(FaFacebookSquare)`

@@ -68,7 +68,7 @@ const Contact = () => {
                         <Content>
                         <Phone /><ContactText>(+381)61 624 4877</ContactText>
                         </Content>
-                        <Content>
+                        <Content mail>
                         <Email /><ContactText>creativemediahub.cmh@gmail.com</ContactText>
                         </Content>
                         <H4>Zapratite nas na drustvenim mrezama:</H4>
