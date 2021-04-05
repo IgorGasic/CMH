@@ -57,8 +57,4 @@ export const Img = styled.img`
 export const UnderLine = styled(Underline)`
     width:15rem;
     margin-top:-15px;
-
-    @media screen and (max-width:468px){
-        margin-left:0;
-    }
 `

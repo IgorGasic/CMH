@@ -53,13 +53,6 @@ export const Img = styled.img`
     width:90%;
     top:0;
     left:1;
-
-    @media screen and (max-width:415px){
-        margin-top:-480px;
-    }
-    @media screen and (max-width:376px){
-        margin-top:-380px;
-    }
 `
 export const Glass = styled.div`
     position:absolute;
@@ -77,11 +70,11 @@ export const Content = styled.div`
     color:#fff;
     margin-top:150px;
 `
-export const H2 = styled.h2`
+/* export const H2 = styled.h2`
     font-weight:bold;
     font-size:2rem;
     text-align:center;
-`
+` */
 export const P = styled.p`
     text-align:center;
     font-size:1.5rem;

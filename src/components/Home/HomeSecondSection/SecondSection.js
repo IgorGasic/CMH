@@ -4,7 +4,6 @@ import {
     Box, 
     Glass, 
     Content,
-    H2,
     Img,
     P} from './SecondSectionStyle';
 import {data} from '../../../data/SecondSectionData';
@@ -19,7 +18,7 @@ const SecondSection = () => {
                 <Img src={img}/>
                 <Glass></Glass>
                 <Content>
-                 <H2>{title}</H2>
+                 {/* <H2>{title}</H2> */}
                  <P>{text}</P>
                 </Content>
               </Box>
