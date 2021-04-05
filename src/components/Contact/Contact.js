@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import {Container} from '../../GlobalStyle';
 import {
     H2, 
@@ -19,22 +20,31 @@ import {
     FormInput,
     FormTextArea,
     FormButton,
-    Error,
-    Linkedin} from './ContactStyled';
+    Linkedin,
+    Alert} from './ContactStyled';
+
 const Contact = () => {
 
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
-    const [error, setError] = useState('');
+    const [loader, setLoader] = useState(false);
+    const [msg, setMsg] = useState('');
 
     const handleSubmit = (e) => {
-        e.preventDefault()
-
-        if(!email){
-            setError("Morate uneti email adresu!");
-        }
+            e.preventDefault()
+            setLoader(true);
+    
+            emailjs.sendForm('service_hoxa9i6', 'template_pv5l9zl', e.target, 'user_IO8AVRpp3H9TMHnI3MX6b')
+            .then((result) => {
+                console.log(result.text);
+                setLoader(false);
+                setMsg('Uspešno ste poslali poruku!');
+            }, (error) => {
+                console.log(error.text);
+                setLoader(false);
+            });
 
 
         setName('');
@@ -54,13 +64,13 @@ const Contact = () => {
                             <FormLabel htmlFor="name">Ime i prezime</FormLabel>
                             <FormInput type="text" name="name" autoComplete="off" onChange={(e)=> setName(e.target.value)} value={name}></FormInput>
                             <FormLabel htmlFor="email">Email</FormLabel>
-                            <FormInput type="email" name="email" autoComplete="off" onChange={(e)=> setEmail(e.target.value)} value={email}></FormInput>
-                            {error && <Error>{error}</Error>}
+                            <FormInput type="email" name="email" autoComplete="off" onChange={(e)=> setEmail(e.target.value)} value={email} required></FormInput>
                             <FormLabel htmlFor="subject">Naslov poruke</FormLabel>
                             <FormInput type="text" name="subject" autoComplete="off" onChange={(e)=> setSubject(e.target.value)} value={subject}></FormInput>
                             <FormLabel htmlFor="message">Poruka</FormLabel>
                             <FormTextArea name="message" onChange={(e)=> setMessage(e.target.value)} value={message}></FormTextArea>
-                            <FormButton type="submit">Posalji</FormButton>
+                            <FormButton type="submit" style={{background: loader ? "#ccc" : "#000", color: loader ? "#4d4d4d" : "#5c0099"}}>Posalji</FormButton>
+                            {msg && <Alert>{msg}</Alert>}
                         </ContactForm>
                     </FormWrapper>
                     <ContactContent>

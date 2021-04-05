@@ -116,7 +116,7 @@ export const UnderLine = styled(Underline)`
 `
 export const ContactContent = styled.div`
     max-width:500px;
-    max-height:330px;
+    max-height:360px;
     background:#000;
     padding:35px;
     display:flex;
@@ -202,6 +202,6 @@ export const Content = styled.div`
     display:flex;
     flex-direction:${(props)=>(props.mail ? "column" : '')};
 `
-export const Error = styled.p`
-    color:red
+export const Alert = styled.p`
+    color:green;
 `
