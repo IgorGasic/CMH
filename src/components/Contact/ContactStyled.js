@@ -9,7 +9,8 @@ export const H2 = styled.h2`
     font-size:3rem;
 
     @media screen and (max-width:468px){
-        padding-top:10px;
+        font-size:2rem;
+        margin-top: 1.5rem;
         text-align:center;
     }
 `
