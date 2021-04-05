@@ -15,10 +15,6 @@ export const AboutUsColumn = styled.div`
     flex:1;
     max-width:100%;
     flex-basis:100%;
-
-    @media screen and (max-width:468px){
-        padding-top:50px;
-    }
 `
 export const Title = styled.h3`
     font-size:3rem;

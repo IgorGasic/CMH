@@ -9,7 +9,7 @@ const Footer = () => {
         <>
             <FooterF>
                 <FooterContainer>
-                    <Text>Creative Media Hub - Sva prava zadrzana @2021</Text>
+                    <Text>Creative Media HUB - Sva prava zadržana @2021</Text>
                 </FooterContainer>
             </FooterF>
         </>

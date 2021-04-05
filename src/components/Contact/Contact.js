@@ -69,7 +69,7 @@ const Contact = () => {
                             <FormInput type="text" name="subject" autoComplete="off" onChange={(e)=> setSubject(e.target.value)} value={subject}></FormInput>
                             <FormLabel htmlFor="message">Poruka</FormLabel>
                             <FormTextArea name="message" onChange={(e)=> setMessage(e.target.value)} value={message}></FormTextArea>
-                            <FormButton type="submit" style={{background: loader ? "#ccc" : "#000", color: loader ? "#4d4d4d" : "#5c0099"}}>Posalji</FormButton>
+                            <FormButton type="submit" style={{background: loader ? "#ccc" : "#000", color: loader ? "#4d4d4d" : "#5c0099"}}>Pošalji</FormButton>
                             {msg && <Alert>{msg}</Alert>}
                         </ContactForm>
                     </FormWrapper>
@@ -81,7 +81,7 @@ const Contact = () => {
                         <Content mail>
                         <Email /><ContactText>creativemediahub.cmh@gmail.com</ContactText>
                         </Content>
-                        <H4>Zapratite nas na drustvenim mrezama:</H4>
+                        <H4>Zapratite nas na društvenim mrežama:</H4>
                         <Content>
                         <Facebook /><ContactSocial href="https://www.facebook.com/Creative-Media-Hub-348377959851415">Facebook</ContactSocial>
                         </Content>
