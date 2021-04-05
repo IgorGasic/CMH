@@ -4,7 +4,8 @@ import {Underline} from '../../GlobalStyle';
 export const AboutUsRow = styled.div`
     display:flex;
     margin:0 -15px -15px -15px;
-    flex-wrap:wrap;
+    flex-direction:column;
+    justify-content:center;
     align-items:center;
 `
 export const AboutUsColumn = styled.div`
@@ -13,7 +14,7 @@ export const AboutUsColumn = styled.div`
     padding-right:15px;
     flex:1;
     max-width:100%;
-    flex-basis:50%;
+    flex-basis:100%;
 
     @media screen and (max-width:468px){
         padding-top:50px;
@@ -21,7 +22,9 @@ export const AboutUsColumn = styled.div`
 `
 export const Title = styled.h3`
     font-size:3rem;
-
+    text-align:center;
+    margin-top: 1.5rem;
+    
     @media screen and (max-width:468px){
         font-size:2.4rem;
         margin-bottom:2px;
@@ -53,7 +56,6 @@ export const Img = styled.img`
 `
 export const UnderLine = styled(Underline)`
     width:15rem;
-    margin-left:25px;
     margin-top:-15px;
 
     @media screen and (max-width:468px){
