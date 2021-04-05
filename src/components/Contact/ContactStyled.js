@@ -5,12 +5,12 @@ import {FaFacebookSquare,FaInstagramSquare,FaRegEnvelope} from 'react-icons/fa';
 import {AiFillLinkedin} from 'react-icons/ai'
 
 export const H2 = styled.h2`
-    padding-top:50px;
+    margin-top:1.5rem;
     font-size:3rem;
 
     @media screen and (max-width:468px){
-        font-size:2rem;
-        margin-top: 1.5rem;
+        font-size:2.4rem;
+        margin-bottom:2px;
         text-align:center;
     }
 `
@@ -108,6 +108,7 @@ export const FormButton = styled.button`
 export const UnderLine = styled(Underline)`
     max-width:12rem;
     margin:-10px 0 0 0;
+    margin-top:-15px;
 
     @media screen and (max-width: 468px){
         margin-top:-10px;
