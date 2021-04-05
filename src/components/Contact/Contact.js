@@ -83,13 +83,13 @@ const Contact = () => {
                         </Content>
                         <H4>Zapratite nas na drustvenim mrezama:</H4>
                         <Content>
-                        <Facebook /><ContactSocial href="https://www.facebook.com/Creative-Media-Hub-348377959851415">Facebook Link</ContactSocial>
+                        <Facebook /><ContactSocial href="https://www.facebook.com/Creative-Media-Hub-348377959851415">Facebook</ContactSocial>
                         </Content>
                         <Content>
-                        <Instagram /><ContactSocial href="https://www.instagram.com/creative_media_hub/">Instagram Link</ContactSocial>
+                        <Instagram /><ContactSocial href="https://www.instagram.com/creative_media_hub/">Instagram</ContactSocial>
                         </Content>
                         <Content>
-                        <Linkedin/><ContactSocial href="https://www.linkedin.com/in/creative-media-hub-cmh-712a2320a/">Linkedin Link</ContactSocial>
+                        <Linkedin/><ContactSocial href="https://www.linkedin.com/in/creative-media-hub-cmh-712a2320a/">Linkedin</ContactSocial>
                         </Content>
                     </ContactContent>
                 </ContactContainer>

@@ -104,7 +104,7 @@ export const ImgPart = styled.div`
         margin: 0 50px 0 60px;
     }
     @media screen and (max-width:468px){
-        padding-left: 25px;
+        padding-left: 10px;
         margin: 0 10px 0 20px;
     }
     @media screen and (max-width: 321px){

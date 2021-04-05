@@ -65,7 +65,7 @@ export const Par = styled.p`
     font-size:1.1rem;
     
     @media screen and (max-width:468px){
-        font-size:1rem;
+        font-size:0.9rem;
     }
 `
 export const FaceIcon = styled(FaFacebookSquare)`
