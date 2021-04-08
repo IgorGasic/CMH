@@ -14,6 +14,14 @@ export const HeroContent = styled.div`
     box-sizing:border-box;
     max-width:900px;
 
+    @media screen and (max-width: 1600px){
+        padding-top: 100px;
+    }
+
+    @media screen and (max-width: 1336px){
+        padding-top: 100px;
+    }
+
     @media screen and (max-width:1050px){
         padding-top:400px;
         margin-left:-70px;

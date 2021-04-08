@@ -117,7 +117,22 @@ export const UnionLink = styled(Link)`
     @media screen and (max-width: 1600px){
         left:230px;
     }
-    @media screen and (max-width: 1337px){
+    @media screen and (max-width: 1550px){
+        left:220px;
+    }
+    @media screen and (max-width: 1500px){
+        left:210px;
+    }
+    @media screen and (max-width: 1450px){
+        left:200px;
+    }
+    @media screen and (max-width: 1400px){
+        left:190px;
+    }
+    @media screen and (max-width:1390px){
+        left:180px;
+    }
+    @media screen and (max-width: 1336px){
         left:170px;
     } 
     @media screen and (max-width:1050px){

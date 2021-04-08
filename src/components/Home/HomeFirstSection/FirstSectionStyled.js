@@ -90,6 +90,10 @@ export const ImgPart = styled.div`
         padding: 10px 70px;
     }
 
+    @media screen and (max-width: 1590px){
+        padding: 10px 50px;
+    }
+
     @media screen and (max-width: 1337px){
         padding:10px 40px;
     }

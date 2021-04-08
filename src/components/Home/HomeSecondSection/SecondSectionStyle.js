@@ -68,7 +68,7 @@ export const Glass = styled.div`
 export const Content = styled.div`
     padding:20px;
     color:#fff;
-    margin-top:150px;
+    margin-top:180px;
 `
 /* export const H2 = styled.h2`
     font-weight:bold;
