@@ -1,12 +1,14 @@
-import React from 'react'
-import News from '../components/News/NewsList'
+import React from "react";
+import Footer from "../components/Footer/Footer";
+import News from "../components/News/NewsList";
 
 const NewsPage = () => {
-    return (
-        <>
-            <News />
-        </>
-    )
-}
+  return (
+    <>
+      <News />
+      <Footer />
+    </>
+  );
+};
 
-export default NewsPage
+export default NewsPage;

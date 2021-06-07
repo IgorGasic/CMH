@@ -27,7 +27,7 @@ export const data = [
     {
         id:3,
         name:"Res Polis",
-        discribe:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quos nisi alias placeat odit ipsum maxime cupiditate, unde, repudiandae quasi quae. Sed quas ipsam nobis facere! Dicta hic esse illo, at voluptate amet voluptates iure blanditiis veritatis similique impedit debitis facilis enim repellendus, numquam aspernatur corporis maxime quas exercitationem totam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, nostrum. Omnis sit esse voluptatibus debitis dolorem. Rem dicta ipsa, reprehenderit nobis iure recusandae! Dicta, laborum? Corporis enim quasi voluptas ad.",
+        discribe:"Centar za omladinski i društveni razvoj „RES POLIS“ je omladinska organizacija koj svojim idejama i radom želi da poboljša uslove života mladih i da utiče na razvijanje građanske svesti kod mladih. Naša misija je da svojim idejama i angažmanom damo svoj doprinos unapređenju društva kroz konkretna rešavanja problema mladih. Centar je posvećen procesu poboljšavanja uslova života mladih kako u Vojvodini, tako i u regionu, razvoju građanske svesti kod mladih ljudi, pa samim tim i jačanju civilnog društva. Želimo da svojim aktivnostima doprinesemo suštinskoj promeni društva, izgradnji novih društvenih i omladinskih vrednosti.",
         img:'./images/krug.svg',
         colors: "purple",
         paddings: "10px",

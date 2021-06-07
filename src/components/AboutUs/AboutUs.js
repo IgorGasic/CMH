@@ -18,16 +18,13 @@ const AboutUs = () => {
                     <AboutUsColumn>
                         <Title>O Udruženju</Title>
                         <UnderLine />
-                        <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta consequuntur consequatur natus facilis odio perferendis, voluptatem numquam architecto rem? Voluptates suscipit, placeat id labore tenetur quia quos aliquam sapiente dignissimos adipisci corporis asperiores dolor at itaque, rem quibusdam sit saepe non obcaecati, sint explicabo. Soluta, sunt quasi. Sit, voluptatem officia. asdsads addasda sdasdasdasd asdasdasds dasdasdas das das dasd sadsads adsad sadasd s ad.</Text>
+                        <Text>Savez udruženja Creative media Hub, u daljem tekstu CMH, je nevladina neprofitna organizacija koja se zalaže za digitalizaciju i digitalno opismenjavanje građana, a naručito mladih, u Srbiji. Naš savez aktivno daje svoj doprinos zajednici kroz rad na projektima koji se tiču IT-sektora, samozapošljavanja mladih, jačanju neformalnih veština u cilju boljeg pozicioniranja na ljudi u tržišnoj utakmici IT sveta. Teme koje su nam takođe bitne i kojima planiramo da posvetimo pažnju su svakako zaštita životne sredine, digitalizacija kulturnog nasleđa, kao i umrežavanje i umrežavanje mladih iz regiona, ali i Evrope. Naš savez broji tri člana  a to su: Centar za omladinski i društveni razvoj „RES POLIS“ , „ Zelena Dolina” i „Edukativni građanski centar”. Pored redovnih članova tu su i druga udruženja, savezni, formalne i neformalne grupe građana  koje podržavaju naš rad. Naš sveobuhvatni zajednički cilj jeste da svojim aktivnostima doprinesemo suštinskoj promeni društva, izgradnji novih društvenih i omladinskih vrednosti i da promovišemo zdrave i prosperitetne ideje, a u kontekstu IT sektora.</Text>
                     </AboutUsColumn>
                     {/* <AboutUsColumn>
                         <AboutUsImg>
                             <Img src={slika} alt="onama"/>
                         </AboutUsImg>
                     </AboutUsColumn> */}
-                    <AboutUsColumn>
-                        <Text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt enim cumque quis dignissimos. Fuga, officia. Dicta, magnam sit fugiat inventore deleniti natus, molestias voluptate, amet quia officiis nesciunt. Omnis natus expedita voluptatem reiciendis, ex vitae mollitia, dolore est illo magni ipsam non ipsa, quidem quis nam! A eos beatae iure. Asadas sadkoas askdoa askosad oaks saokd as Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolore tempora accusamus reprehenderit reiciendis quidem ipsa deleniti eligendi, possimus voluptates! sadasdsa sapls Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maiores, illo dolores magnam in labore aliquam, dicta quibusdam praesentium, deleniti minima placeat recusandae voluptas ipsa neque quod autem doloribus soluta.</Text>
-                    </AboutUsColumn>
                 </AboutUsRow>
             </Container>  
         </>

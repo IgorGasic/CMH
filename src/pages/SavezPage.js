@@ -1,14 +1,16 @@
-import React from 'react'
-import SavezHeader from '../components/Savez/SavezHeader/SavezHeader';
-import SavezMain from '../components/Savez/SavezMain/SavezMain';
+import React from "react";
+import Footer from "../components/Footer/Footer";
+import SavezHeader from "../components/Savez/SavezHeader/SavezHeader";
+import SavezMain from "../components/Savez/SavezMain/SavezMain";
 
 const SavezPage = () => {
-    return (
-        <>
-            <SavezHeader />
-            <SavezMain />
-        </>
-    )
-}
+  return (
+    <>
+      <SavezHeader />
+      <SavezMain />
+      <Footer />
+    </>
+  );
+};
 
-export default SavezPage
+export default SavezPage;

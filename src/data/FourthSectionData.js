@@ -1,30 +1,50 @@
 export const data = [
-    {
-        id:1,
-        name:'Igor Gasic',
-        job:'Kordinator tima',
-        text:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt repellendus quibusdam aliquam ipsum iure libero dolorum facilis voluptate explicabo modi eius consequatur quas vero, accusamus eaque, odio ab excepturi quia.',
-        img:'./images/01.jpg'
-    },
-    {
-        id:2,
-        name:'Petar Petrovic',
-        job:'Kordinator tima',
-        text:'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt repellendus quibusdam aliquam ipsum iure libero dolorum facilis voluptate explicabo modi eius consequatur quas vero, accusamus eaque, odio ab excepturi quia.',
-        img:'./images/02.jpg'
-    },
-    {
-        id:3,
-        name:'Nikola Nikolic',
-        job:'Kordinator tima',
-        text:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, eveniet. Consectetur nihil earum explicabo sunt optio eum doloremque harum accusamus, sint expedita similique et? Doloremque quisquam labore nobis, incidunt dolores maiores asperiores animi. Earum sed numquam illum, quidem sit saepe fuga quo nesciunt at totam suscipit atque dolorum repudiandae nostrum.',
-        img:'./images/01.jpg'
-    },
-    {
-        id:4,
-        name:'...',
-        job:'Kordinator tima',
-        text:'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, eveniet. Consectetur nihil earum explicabo sunt optio eum doloremque harum accusamus, sint expedita similique et? Doloremque quisquam labore nobis, incidunt dolores maiores asperiores animi. Earum sed numquam illum, quidem sit saepe fuga quo nesciunt at totam suscipit atque dolorum repudiandae nostrum.',
-        img:'./images/02.jpg'
-    }
-]
+  {
+    id: 1,
+    name: "Igor Gašić",
+    job: "Koordinator tima",
+    text: "Predsednik Upravnog odbora Saveza udruženja Creative media HUB",
+    text1: "Visoka tehnička škola u Novom Sadu, smer informacione tehnologije",
+    text2:
+      "Predavač u školi LOGISOOL u Novom Sadu, gde obučava nove generacije koje pokazuju interesovanje za digitalne oblasti kao što su programiranje i video produkcija",
+    text3: "Član Saveza od osnivanja 2019. godine i zastupnik od 2021. godine",
+    img: "./images/002.jpg",
+  },
+  {
+    id: 2,
+    name: "Nikola Radman",
+    job: "Koordinator obrazovnog programa",
+    text: "Predsednik organizacije CODR “RES POLIS”/izvršni direktor/projekt menadžer",
+    text1:
+      "Pejzažni arhitekta – Univerzitet u Novom Sadu, Poljoprivredni fakultet",
+    text2: "Od 2019. godine član Saveza udruženja Creative media HUB",
+    text3:
+      "Edukator u oblasti bezbednosti na itnernetu, marketing na društvenim mrežama, WordPress. /Veštine crtanja i projektivanja/ AutoCAD i WEB marketing",
+    img: "./images/02.jpg",
+  },
+  {
+    id: 3,
+    name: "Jelena Subotin",
+    job: "Koordinator omladinskog programa",
+    text: "Predsednik Upravnog odbora udruženja Zelena dolina",
+    text1:
+      "Diplomirani turizmolog/ master- Prirodno matematički fakultet Novi Sad",
+    text2:
+      "Master ekonomista / Fakultet za ekonomiju i inženjetski menadžment u Novom Sadu",
+    text3:
+      "Član Saveza Creative media HUB i predsednik Upravnog odbora od osnivanja 2019. do 2021. godine",
+    img: "./images/04.jpg",
+  },
+  {
+    id: 4,
+    name: "Stefan Lazičić",
+    job: "Menadžer i projektni asistent",
+    text: "Predsednik Upravnog odbora udruženja Edukativni građanski centar",
+    text1:
+      "Visoka Poslovna Škola, Smer trgovina i međunarodno poslovanje u Novom Sadu – apsolvent",
+    text2: "Od 2019. godine član Saveza udruženja Creative media HUB",
+    text3:
+      "Organizacija edukativnih aktivnosti/ učestvovanje u pisanju i realizaciji projekata",
+    img: "./images/03.jpg",
+  },
+];

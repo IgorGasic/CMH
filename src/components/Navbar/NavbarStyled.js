@@ -8,7 +8,7 @@ export const Nav = styled.nav`
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    top: 0;
+    top:0;
     z-index: 999;
     margin-top: 0px;
     padding-top:0px;
@@ -81,6 +81,7 @@ export const NavMenu = styled.ul`
     align-items:center;
     list-style:none;
     text-align: center;
+
 
     @media screen and (max-width:1050px){
         display:flex;

@@ -1,22 +1,19 @@
 export const data = [
-    {
-        id:1,
-        title:"Novosadski Festivalski Almanah",
-        text:"Projekat Novosadski Festvalski Almanah je naš prvi projekat ali i prva publikacija vezana za kulturu i kulturni života u Novom Sadu. Kao takav od samog početka je trebao da pretstavlja svojevrsan uvod u ovaj izuzeztno bitan i zanimljiv segment svakog grada koji svakako treba da bude što bolje propraćen i podržavan kako bih rastao, razvijao se i napredovao, stvarajući svima nama kvalitetnije mesto za život. Naš cilj je upravo bio da dokumentujemo i na neki način popularizujemo festivale i festivalskih manifestacija u gradu Novom Sadu. Ova dva cilja su svakako uspešno realizovana, stvaranjem publikacije na temu novosadskih kako postojećih tako i festivala i kultnih mesta koja su nekada pretstavljali značajno znamenje i u neku ruku simbole grada iz vremena kada su oni bili opšte poznati. Korist od ovakve publikacije je višestruka i ogleda se u informisanju šire javnosti o svim događajima u gradu.\n Nažalost idalje postoji jedan deo događaja koji imaju malu ili nikakvu pažnju medija, koji su slabo promovisani i o kojima se slabo govori a sigurni smo da bi privukli mnogo veću publiku i pažnju kada bi se ta situacija promenila, u čemu smo mi dali naš lični doprinos kroz ovaj mali almanah koji je uspeo da izmami osmehe starijih i mlađih sugrađana koji su na ovu temu i publikaciju izuzetno dobro reagovali. Strategija kulturnog razvoja grada Novog Sada za period od 2016. – 2026. jasno definiše probleme i ključne aspekte na kojima je neophodno raditi kroz angažman civilnog sektora i udruženja koja se bave kulturom u Novom Sadu, u šta želimo i našu organizaciju da svrstamo i upravo radom na ovoj publikaciji je stvorena dobra osnova za informacionu baza podataka vezanih za samu kulturu i kulturna dešavanja ali i za vođenje kulturne politike, potsticanje kreiranja kosmopolitskog identiteta grada, učešće građana i građanki u kulturnom životu grada, autentično i slobodno stvaralaštvo, podrška neafirmisanim umetnicima kao i osnaživanje i uključivanje građana u procese stvaranja, revitalizacije i očuvanja kulturne baštine. Kroz realizaciju ovog projekta smo svakako mnogo toga naučili i stvorili neophodne prve kontakte sa udruženjima i festivalima koji kroje kulturnu sliku ovog grada što je od samog početka i bila ideja našeg tima.\n Ovoj tematici u narednim godinama planiramo da posvetimo sve veću pažnju i da je ispratimo kako treba obzirom na količinu kulturnih dešavanja u našem gradu.",
-        thumb:"./images/Mm.jpg",
-        imgone:'/images/co.jpg',
-        imgtwo:'/images/co.jpg',
-        imgthree:'/images/co.jpg',
-        imgfour:'/images/co.jpg',
-    },
-    {
-        id:2,
-        title:"Vest",
-        text:"Projekat Novosadski Festvalski Almanah je naš prvi projekat ali i prva publikacija vezana za kulturu i kulturni života u Novom Sadu. Kao takav od samog početka je trebao da pretstavlja svojevrsan uvod u ovaj izuzeztno bitan i zanimljiv segment svakog grada koji svakako treba da bude što bolje propraćen i podržavan kako bih rastao, razvijao se i napredovao, stvarajući svima nama kvalitetnije mesto za život. Naš cilj je upravo bio da dokumentujemo i na neki način popularizujemo festivale i festivalskih manifestacija u gradu Novom Sadu. Ova dva cilja su svakako uspešno realizovana, stvaranjem publikacije na temu novosadskih kako postojećih tako i festivala i kultnih mesta koja su nekada pretstavljali značajno znamenje i u neku ruku simbole grada iz vremena kada su oni bili opšte poznati. Korist od ovakve publikacije je višestruka i ogleda se u informisanju šire javnosti o svim događajima u gradu.\n Nažalost idalje postoji jedan deo događaja koji imaju malu ili nikakvu pažnju medija, koji su slabo promovisani i o kojima se slabo govori a sigurni smo da bi privukli mnogo veću publiku i pažnju kada bi se ta situacija promenila, u čemu smo mi dali naš lični doprinos kroz ovaj mali almanah koji je uspeo da izmami osmehe starijih i mlađih sugrađana koji su na ovu temu i publikaciju izuzetno dobro reagovali. Strategija kulturnog razvoja grada Novog Sada za period od 2016. – 2026. jasno definiše probleme i ključne aspekte na kojima je neophodno raditi kroz angažman civilnog sektora i udruženja koja se bave kulturom u Novom Sadu, u šta želimo i našu organizaciju da svrstamo i upravo radom na ovoj publikaciji je stvorena dobra osnova za informacionu baza podataka vezanih za samu kulturu i kulturna dešavanja ali i za vođenje kulturne politike, potsticanje kreiranja kosmopolitskog identiteta grada, učešće građana i građanki u kulturnom životu grada, autentično i slobodno stvaralaštvo, podrška neafirmisanim umetnicima kao i osnaživanje i uključivanje građana u procese stvaranja, revitalizacije i očuvanja kulturne baštine. Kroz realizaciju ovog projekta smo svakako mnogo toga naučili i stvorili neophodne prve kontakte sa udruženjima i festivalima koji kroje kulturnu sliku ovog grada što je od samog početka i bila ideja našeg tima.\n Ovoj tematici u narednim godinama planiramo da posvetimo sve veću pažnju i da je ispratimo kako treba obzirom na količinu kulturnih dešavanja u našem gradu.",
-        thumb:"./images/Ho.jpg",
-        imgone:'/images/co.jpg',
-        imgtwo:'/images/co.jpg',
-        imgthree:'/images/co.jpg',
-        imgfour:'/images/co.jpg'
-    },
-]
+  {
+    id: 1,
+    title: "Radionica - Uvod u video produkciju",
+    text1:
+      'Creative Media Hub u saradnji sa medjunarodnom školom Logiscool organizuje malu radionicu "Uvod u video produkciju". Radionica će biti održana u učionicama Logiscool škole 12. i 13. juna u terminima od 15-19h, a 19. juna će biti prezentovani editovani video snimci polaznika radionice i najbolji će biti nagradjen. Radionica je namenjena za decu uzrasta od 10 do 15 godina.',
+    text2:
+      "Ciljevi radionice su: da se deci predstave razni uredjaji (go pro kamere, dron, profesionalne kamere) sa kojima se beleži video materijal i softveri pomoću kojih možemo editovati video materijal. Kroz radionicu biće predstavljen uvod u softver Adobe Premiere. Deca će se upoznati sa radnim okruzenjem Premiera, sa osnovnim funkcijama, efektima, ubacivanjem zvuka, inport- export i sa svim ostalim detaljima koji su neophodni za samostalno editovanje video materijala.",
+    text3:
+      "Zbog trenutne epidemioloske situacije i poštovanjem propisanih mera, radionica će biti ograničena na dvanaestoro polaznika, samim tim očekujemo da prijavljeni ispoštuju radionicu svojim prisustvom.",
+    text4:
+      "Prijave se mogu vršiti putem mail-a: creativemediahub.cmh@gmail.com ili putem telefona: 0616244877",
+    thumb: "./images/radionica.png",
+    /* imgone: "/images/radionica.png", */
+    /* imgtwo:'/images/co.jpg',
+    imgthree:'/images/co.jpg',
+    imgfour:'/images/co.jpg', */
+  },
+];
