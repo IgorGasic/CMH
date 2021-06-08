@@ -12,6 +12,7 @@ import Projects from "./pages/ProjectsPage";
 import SingleProject from "./components/Projects/SingleProject";
 import News from "./pages/NewsPage";
 import SingleNews from "./components/News/SingleNews";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path="/vest/:title" component={SingleNews} />
         <Route path="*" component={Error} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

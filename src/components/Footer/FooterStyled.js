@@ -23,4 +23,8 @@ export const Text = styled.p`
   text-align: center;
   color: #fff;
   font-size: 1.2rem;
+
+  @media screen and (max-width: 415px) {
+    font-size: 0.8rem;
+  }
 `;
