@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
-export const ProjectContainer = styled.div``;
+export const ProjectContainer = styled.div`
+  height: 100vh;
+`;
 export const ProjectHeader = styled.div``;
 export const Title = styled.h2`
   font-size: 3rem;
