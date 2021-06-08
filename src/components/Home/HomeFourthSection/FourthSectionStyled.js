@@ -26,6 +26,10 @@ export const TeamContnainer = styled.div`
   position: relative;
   display: flex;
   overflow: hidden;
+
+  @media screen and (max-width: 415px) {
+    height: 800px;
+  }
 `;
 export const Img = styled.img`
   border-radius: 50%;
