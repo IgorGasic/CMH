@@ -2,6 +2,10 @@ import styled from "styled-components";
 
 export const ProjectContainer = styled.div`
   height: 100vh;
+
+  @media screen and (max-width: 415px) {
+    height: 100%;
+  }
 `;
 export const ProjectHeader = styled.div``;
 export const Title = styled.h2`
