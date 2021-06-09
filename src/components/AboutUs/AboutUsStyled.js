@@ -52,7 +52,7 @@ export const Text = styled.p`
   max-width: ${(props) => (props.large ? "1200px" : "540px")};
   padding-bottom: 00px;
   font-size: 1.2rem;
-  margin-top: 150px;
+  margin-top: 100px;
   text-align: center;
 
   @media screen and (max-width: 415px) {
