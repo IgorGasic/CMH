@@ -9,6 +9,10 @@ export const AboutUsRow = styled.div`
   align-items: center;
   height: 91vh;
 
+  @media only screen and (min-width: 1030px) and (max-width: 1367px) {
+    height: 105vh;
+  }
+
   @media screen and (max-width: 415px) {
     height: 100vh;
     padding-top: 500px;
@@ -42,6 +46,10 @@ export const Title = styled.h3`
   text-align: center;
   margin-top: 1.5rem;
 
+  @media only screen and (min-width: 1030px) and (max-width: 1367px) {
+    margin-top: 3rem;
+  }
+
   @media screen and (max-width: 468px) {
     font-size: 2.4rem;
     margin-bottom: 2px;
@@ -50,16 +58,19 @@ export const Title = styled.h3`
 `;
 export const Text = styled.p`
   max-width: ${(props) => (props.large ? "1200px" : "540px")};
-  padding-bottom: 00px;
   font-size: 1.2rem;
   margin-top: 100px;
   text-align: center;
+
+  @media only screen and (min-width: 1030px) and (max-width: 1367px) {
+    margin-top: 50px;
+  }
 
   @media screen and (max-width: 415px) {
     margin-top: 50px;
   }
 `;
-export const AboutUsImg = styled.div`
+/* export const AboutUsImg = styled.div`
   padding-top: 190px;
   max-width: 655px;
   display: flex;
@@ -75,7 +86,7 @@ export const Img = styled.img`
   max-width: 100%;
   vertical-align: middle;
   min-height: 350px;
-`;
+`; */
 export const UnderLine = styled(Underline)`
   width: 15rem;
   margin-top: -15px;
