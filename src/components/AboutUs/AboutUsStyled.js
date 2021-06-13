@@ -7,11 +7,7 @@ export const AboutUsRow = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 91vh;
-
-  @media only screen and (min-width: 1030px) and (max-width: 1367px) {
-    height: 105vh;
-  }
+  height: 100vh;
 
   @media screen and (max-width: 415px) {
     height: 100vh;
